@@ -1,0 +1,121 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+h1,p{
+    color: white;
+}
+
+p{
+    color:  hsl(215, 15%, 44%);
+    font-weight: 300;
+ }
+
+section{
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+}
+
+img[alt="equilibrium_img"]{
+    width: 100%;
+    border-radius: 1em;
+}
+
+span{
+    color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  min-height: 60vh;
+  width: 320px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+
+.sect1{
+    color: hsl(178, 100%, 50%);
+}
+
+.sect2{
+    color:  hsl(215, 51%, 70%);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid hsl(215, 15%, 44%);
+}
+
+.p_foot {
+  display: flex;
+  align-items: center;
+}
+
+.p_foot span {
+  margin-left: 10px;
+}
+
+.p_foot::before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(images/image-avatar.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  border: 0.5mm solid white;
+  border-radius: 50%;
+}
+
+h1:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+img[alt="equilibrium_img"]:hover{
+ opacity: 0.45;
+ height: 100%;
+
+}
+
+header:hover{
+  background-color: hsl(178, 100%, 50%);
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center ;
+  border-radius: 1em ;
+}
+
+span:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center; 
+  color: rgb(187, 186, 186);
+}
+
+.attribution a { 
+  color: hsl(227, 74%, 61%); 
+}
